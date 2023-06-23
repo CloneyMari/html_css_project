@@ -114,3 +114,91 @@ section a {
 .sign-up-link a:hover {
     color: #eebbc3;
 }
+
+/* Signup */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f1235;
+
+
+}
+.signup-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+    background-color: #232946;
+}
+.signup-header {
+    text-align: center;
+    margin: 20px 0 40px 0;
+
+}
+.signup-header header {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.su-box .su-field {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 5px 10px 1px rgba(0,0,0,0.05);
+    outline: none;
+    transition: .3s;
+}
+::placeholder {
+    font-weight: 500;
+    color: #222;
+}
+.su-field:focus {
+    width: 105%;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
